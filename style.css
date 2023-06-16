@@ -47,6 +47,11 @@
     #menu{
         display: none;
     }
+    .space{
+        display: none;
+        
+    }
+    
 }
 
 @media (max-width: 1280px) {
@@ -80,6 +85,22 @@
         background-color: white;
         
     }
+    .space{
+        display: none;
+        border-top: solid lightgrey;
+    }
+    .icons{
+        border-bottom: solid lightgrey;
+        height: 40px;
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+        display: flex;
+
+    }
+    .icons:hover{
+        color: #0079c0;
+    }
 }
 
 @media (max-width: 640px) {
@@ -112,6 +133,21 @@
         display: block;
         background-color: white;
         
+    }
+    .space{
+        display: none;
+        border-top: solid lightgray;
+    }
+    .icons{
+        border-bottom: solid lightgrey;
+        height: 40px;
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+        display: flex;
+    }
+    .icons:hover{
+        color: #0079c0;
     }
 }
 
@@ -148,4 +184,8 @@
     display: block;
     justify-content: center;
     animation: fadeIn 5s;
+}
+
+.show{
+    display: block;
 }
